@@ -81,6 +81,8 @@ class Routes extends Component {
           }}>
           <Route path="/tutorials" component={Tutorials} />
           <Route path="/home" component={Guest} />{" "}
+          <Route path="/" component={Guest} />{" "}
+
         </MyContext.Provider>
       </Router>
     ) : (
