@@ -19,5 +19,5 @@ class Guest extends Component {
       }
 }
  
-Guest.contextType = MyContext;
+// Guest.contextType = MyContext;
 export default Guest;
