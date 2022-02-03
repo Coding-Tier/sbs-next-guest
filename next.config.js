@@ -6,7 +6,7 @@ module.exports = {
           headers: [
             {
               key: 'Content-Security-Policy',
-              value: "frame-ancestors 'none'",
+              value: "frame-ancestors https://www.hipandkneestepbystep.com/sbs-education",
             },
           ],
         },
