@@ -1,0 +1,167 @@
+#SOXRVNBOPS_Main_Div {
+  background-image: linear-gradient(
+    119deg,
+    #3023ae,
+    #53a0fd 47%,
+    #6eb6cc 81%,
+    #b4ec51
+  );
+  min-height: 100vh;
+  padding: 0px;
+  position: relative;
+  overflow: hidden;
+}
+
+#SOXRVNBOPS_Content_Wrapper {
+  margin: auto;
+  min-width: 700px;
+  width: 58%;
+  /* max-width: 830px; */
+  height: 100vh;
+  padding: 0rem 0rem 0rem 0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#SOXRVNBOPS_Heading1_Div {
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-size: 2vw;
+  margin-bottom: 10px;
+  display: block;
+  font-weight: bold;
+}
+
+#SOXRVNBOPS_Heading_row {
+  width: 30%;
+}
+
+#SOXRVNBOPS_Image_Wrapper {
+  border: 3px solid white;
+  padding: 15px;
+}
+#SOXRVNBOPS_Image_Container {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+#SOXRVNBOPS_Table_Row {
+  display: flex;
+  flex-direction: row;
+}
+
+#SOXRVNBOPS_Table_Col_1 {
+  width: 40%;
+  padding: 20px;
+  font-size: 1.4vw;
+  font-family: Lato, sans-serif;
+  color: #fff;
+}
+
+#SOXRVNBOPS_Table_Col_2 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+#SOXRVNBOPS_Table_Col_2_inner_rotate {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-left: 5px;
+}
+
+#SOXRVNBOPS_Table_Col_2_inner_rotate p {
+  position: absolute;
+}
+
+#SOXRVNBOPS_Table_Col_2_inner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+}
+#SOXRVNBOPS_Table_Col_2_inner img {
+  margin: 2rem;
+  width: 47%;
+}
+
+.SOXRVNBOPS_Rotaed p {
+  transform-origin: 12% 0%;
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-size: 1.2vw;
+  font-weight: 300;
+  transform: rotate(305deg);
+  border: transparent !important;
+  text-align: center;
+}
+
+#SOXRVNBOPS_tick {
+  width: 20%;
+}
+
+#SOXRVNBOPS_Table {
+  display: flex;
+  flex-direction: column;
+}
+
+.SOXRVNBOPS_yellowBack {
+  background-color: #f4ea1c;
+}
+
+.SOXRVNBOPS_Green_Back {
+  background-color: #b6d777;
+}
+
+.SOXRVNBOPS_blueBack {
+  background-color: #71cdda;
+}
+
+.SOXRVNBOPS_noBack {
+  background-color: transparent;
+}
+
+#SOXRVNBOPS_Next_Button_Div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 935px) {
+  #SOXRVNBOPS_Content_Wrapper {
+    padding: 0rem 1rem 0rem 1rem;
+  }
+  .SOXRVNBOPS_Rotaed p {
+    font-size: 1.2vw;
+  }
+}
+
+#SOXRVNBOPS_Next_Button {
+  display: block;
+  width: auto;
+  min-width: 220px;
+  padding: 16px 6px;
+  font-size: 1.3vw;
+  line-height: 1.4vw;
+  border-radius: 25px;
+  background-color: #b4ec51;
+  font-family: Lato, sans-serif;
+}
+
+@media screen and (max-width: 1100px) {
+  #SOXRVNBOPS_Heading1_Div {
+    font-size: 2.8vw;
+  }
+
+  #SOXRVNBOPS_Next_Button {
+    font-size: 1.9vw;
+  }
+}
