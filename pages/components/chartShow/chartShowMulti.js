@@ -3,8 +3,8 @@ import { VictoryStack, VictoryArea } from 'victory';
 import Arrow from '@elsdoerfer/react-arrow'
 import Button from '@material-ui/core/Button';
 import MyContext from '../../helper/themeContext';
-import './chartShow.css';
-import './chart.css'
+// import './chartShow.css';
+// import './chart.css'
 import FooterImage from '../../assets/charts-footer-image-2.PNG'
 import { getJointNameById } from '../../StoreFunctions/evaluationStoreFunctions';
 
