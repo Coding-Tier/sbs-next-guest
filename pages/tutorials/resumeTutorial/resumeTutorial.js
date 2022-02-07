@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import './resumeTutorial.css';
+// import './resumeTutorial.css';
 import { Button } from '@material-ui/core';
 import MyContext from '../../helper/themeContext';
 import SemipolarLoading from 'react-loadingg/lib/SemipolarLoading';

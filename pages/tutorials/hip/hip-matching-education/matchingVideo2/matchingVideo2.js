@@ -4,7 +4,7 @@ import Button from "@material-ui/core/Button";
 
 import MyContext from "../../../../helper/themeContext";
 
-import "../../../sbs/video/SBSVideo.css";
+// import "../../../sbs/video/SBSVideo.css";
 
 class MatchingVideo extends Component {
   constructor(props) {
