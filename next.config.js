@@ -8,7 +8,7 @@ module.exports = withImages({
           headers: [
             {
               key: 'Content-Security-Policy',
-              value: "frame-ancestors https://www.hipandkneestepbystep.com/sbs-education",
+              value: "frame-ancestors 'self' https://www.hipandkneestepbystep.com/",
             },
           ],
         }
