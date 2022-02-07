@@ -1,4 +1,3 @@
-import React from "react";
 
 import GetDataJson from "../Fetch/getDataJsonAsync";
 
