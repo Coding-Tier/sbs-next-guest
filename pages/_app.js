@@ -47,12 +47,20 @@ const baseUrl = baseUrlA;
 
     const tsetState = (newState) =>
     {
-        console.log(newState)
-        setState({
-            ...sessionVariables,
-            ...newState,
-            loading:false
-        })
+        if(window==window.top) {
+            // not in an iframe
+        }
+
+        else
+        {
+            console.log(newState)
+            setState({
+                ...sessionVariables,
+                ...newState,
+                loading:false
+            })
+        }
+       
     }
 
 
