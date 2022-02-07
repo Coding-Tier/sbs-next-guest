@@ -6,8 +6,8 @@ import MyContext from '../../helper/themeContext';
 
 import Image from 'next/image'
 
-import './chartShow.css';
-import './chart.css'
+// import './chartShow.css';
+// import './chart.css'
 
 
 import FooterImage from '../../assets/charts-footer-image1.PNG'
