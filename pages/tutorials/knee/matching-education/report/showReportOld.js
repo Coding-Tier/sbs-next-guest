@@ -35,7 +35,7 @@ import MNFVUP from '../../../../assets/matching-education-medial-nonflexion-up.p
 import LFVUP from '../../../../assets/matching-education-lateral-flexion-up.png'
 import LNFVUP from '../../../../assets/matching-education-lateral-nonflexion-up.png'
 import KVUP from '../../../../assets/matching_tutorial_keencap_up.png'
-import './showReport.css'
+// import './showReport.css'
 // import './report.css'
 
 import Image from 'next/image'
