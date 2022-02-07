@@ -2112,3 +2112,5 @@ export function getChartOverallByKnee()
 {
   return KneeChartOverAllRounded;
 } 
+
+export default ()=>{}

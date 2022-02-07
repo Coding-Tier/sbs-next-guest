@@ -292,3 +292,5 @@ export function getScore (ChartOverAll,joint_id,form){
     OverallInterval = ChartOverAll[SumPain + SumStiff + SumFunction];
     return OverallInterval
 }
+
+export default ()=>{}
