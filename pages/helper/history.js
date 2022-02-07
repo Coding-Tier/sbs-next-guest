@@ -1,4 +1,8 @@
-import { createBrowserHistory } from 'history';
+
+const createBrowserHistory = () =>
+{
+    
+}
 
 export default createBrowserHistory();
 
