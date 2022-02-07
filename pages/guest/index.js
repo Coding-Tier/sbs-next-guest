@@ -2,11 +2,12 @@ import React, { Component } from "react";
 import { Grid, Button } from "@material-ui/core";
 
 import Bone2Image from "../assets/bone1_Bitmap.png";
-
-import "./homeNew.css";
 import MyContext from "../helper/themeContext";
 
 import { SemipolarLoading } from "react-loadingg";
+
+import Image from 'next/image'
+
 
 // import GetDataJson from '../Fetch/getDataJson';
 // import {LoadNewEval} from '../StoreFunctions/evaluationStoreFunctions'
@@ -97,7 +98,7 @@ class Guest extends Component {
                       id="Home_Button"
                       variant="contained"
                       onClick={() => {
-                        this.context.history.push("./tutorials/sbs/welcome");
+                        this.context.Navigate("./tutorials/sbs/welcome");
                       }}
                     >
                       Get Started
@@ -110,7 +111,7 @@ class Guest extends Component {
                       id="Home_Button"
                       variant="contained"
                       onClick={() => {
-                        this.context.history.push("./tutorials/knee/options");
+                        this.context.Navigate("./tutorials/knee/options");
                       }}
                     >
                       {" "}
@@ -124,7 +125,7 @@ class Guest extends Component {
                       id="Home_Button"
                       variant="contained"
                       onClick={() => {
-                        this.context.history.push("./tutorials/hip/options");
+                        this.context.Navigate("./tutorials/hip/options");
                       }}
                     >
                       {" "}
@@ -138,7 +139,7 @@ class Guest extends Component {
                       id="Home_Button"
                       variant="contained"
                       onClick={() => {
-                        this.context.history.push(
+                        this.context.Navigate(
                           "/tutorials/automatic-xray-evaluation"
                         );
                       }}
@@ -155,12 +156,12 @@ class Guest extends Component {
                 <div id="Home_Image_div_wrapper">
                   {/* <div className="Home_Button_Div"id='Get_started_Div'>
                                         <Button id="Home_Button" variant="contained"
-                                            onClick={() => { this.context.history.push("./tutorials/sbs/welcome"); }}>
+                                            onClick={() => { this.context.Navigate("./tutorials/sbs/welcome"); }}>
                                             Get Started
                                         </Button>
                                     </div> */}
                   <div id="Home_Image_div">
-                    <img src={Bone2Image} alt="SBS" id="Home_Image_Bone" />
+                    <img  src={Bone2Image} alt="SBS" id="Home_Image_Bone" />
                   </div>
                 </div>
               </Grid>
@@ -169,8 +170,9 @@ class Guest extends Component {
             </Grid>
           </div>
         )}
-       
+
       </div>
+      
     );
   }
 }

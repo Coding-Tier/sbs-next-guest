@@ -50,7 +50,7 @@ class XrayEval extends Component {
                     "tutorial-" + this.context.state.user_id,
                     2
                   );
-                  this.context.history.push(
+                  this.context.Navigate(
                     "/tutorials/patient-evaluation-education/options"
                   );
                 }}

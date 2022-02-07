@@ -19,7 +19,7 @@ class ResumeTutorial extends Component {
             this.setState({ loading: true })
             GetData(this.context.baseUrl + './api/v1/delete/report', 200, this.context.state.token, this.setMe)
         }
-        else this.props.history.push('/start-over')
+        else this.props.Navigate('/start-over')
     }
 
     setMe = () => {
@@ -45,13 +45,13 @@ class ResumeTutorial extends Component {
                     </div>
 
                         <div className="Evaluation_ResumeEvaluation_Button_Div">
-                            <Button className="Evaluation_ResumeEvaluation_Button" variant="contained" onClick={() => this.props.history.push('/tutorials/resume-tutorial/recover')}>  {this.context.state.evaluation_stage > 0 ? 'Resume Tutorial' : 'Yes'} </Button>
+                            <Button className="Evaluation_ResumeEvaluation_Button" variant="contained" onClick={() => this.props.Navigate('/tutorials/resume-tutorial/recover')}>  {this.context.state.evaluation_stage > 0 ? 'Resume Tutorial' : 'Yes'} </Button>
                         </div>
 
                         {
                             this.context.state.evaluation_stage > 0 ?
                                 <div className="Evaluation_ResumeEvaluation_Button_Div">
-                                    <Button className="Evaluation_ResumeEvaluation_Button" variant="contained" onClick={() => this.props.history.push('/evaluation/resume-evaluation/recover')}> Resume Evaluation </Button>
+                                    <Button className="Evaluation_ResumeEvaluation_Button" variant="contained" onClick={() => this.props.Navigate('/evaluation/resume-evaluation/recover')}> Resume Evaluation </Button>
                                 </div> : null
                         }
 

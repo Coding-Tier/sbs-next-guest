@@ -1,0 +1,193 @@
+#Evaluaion_Chart_Main_Div
+{
+    background-image: linear-gradient(119deg, #3023ae, #53a0fd 47%, #6eb6cc 81%, #b4ec51);
+    min-height: 100vh;
+    overflow: auto;
+    position: relative;
+}
+
+#Evaluaion_Chart_Content_Wrapper
+{
+  float:left;
+  margin-left:15%;
+  width:80%;
+  min-width: 1200px;
+  /* min-height:100vh; */
+  /* line-height: 100vh; */
+  /* vertical-align: bottom; */
+  /* display: flex; */
+  /* justify-content: center; */
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+  /* margin-top: calc(100px)   */
+  /* justify-content: center;
+  align-items: center; */
+}
+
+@media only screen and (max-width:1400px)
+{
+  #Evaluaion_Chart_Content_Wrapper
+  {
+    width:90%;
+    margin-left:7%;
+
+  }
+}
+
+#Evaluaion_MultiChart_Content
+{
+  max-height: calc(100vh - 260px);
+  overflow: auto;
+}
+
+.custom-scrollbarv1::-webkit-scrollbar {
+  height: 12px;
+  width: 12px;
+  background: #68B2D7;
+}
+
+.custom-scrollbarv1::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  width: 200px;
+  height: 8px;
+  border-radius: 5px;
+}
+
+.custom-scrollbarv1::-webkit-scrollbar-thumb {
+  background: #cacaca;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.custom-scrollbarv1::-webkit-scrollbar-thumb:hover{
+  background: #8a8989;
+}
+
+
+#Evaluaion_Chart_Text_Div
+{
+    margin-bottom: 15px;
+    font-size: 20px;
+    line-height: 28px;
+
+    margin-top: 0px;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    font-weight: 400;
+    box-sizing: border-box;
+  
+  /* vertical-align: middle; 
+  display: table-row;  */
+}
+
+#Evaluaion_Chart_Heading1_Div
+{
+  font-family: Lato, sans-serif;
+  color: #fff;
+  display: block;
+  margin-bottom: 5px;
+  font-size: 36px;
+  line-height: 40px;
+}
+
+#Evaluaion_Chart_Heading2_Div
+{
+    font-size: 32px;
+   
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    box-sizing: border-box;
+
+    margin-top: 0px;
+    margin-bottom: 5px;
+    line-height: 48px;
+    font-weight: 700;
+  
+
+  /* vertical-align: middle; 
+  display: table-row; */
+}
+
+.arrow-text-span
+{
+  color:#231F20;
+  position: absolute;
+  top:210px;
+  left:5px;
+  transform:rotate(270deg) translateY(-86px);
+  font-family:Lato;
+  font: weight 700;
+  font-size:17px;
+  width:196px;
+}
+
+#arrow-div
+{
+  margin-left:10px;
+}
+
+#Evaluaion_Chart_Footer_Div
+{
+  width: 1060px;
+  background: #fff;
+  text-align: center;
+}
+
+#Evaluaion_Chart_Footer_Image
+{
+  width: 1060px;
+  background: #fff;
+  text-align: center;
+}
+
+
+#Evaluaion_MultiChart_Content_Wrapper
+{
+  float:left;
+  /* margin-left:15%; */
+  width:max-content;
+  min-width: 1200px;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+
+@media only screen and (max-height:1140px)
+{
+  #Evaluaion_MultiChart_Content_Wrapper
+  {
+    height:calc(100% - 50px);
+    margin-top: 100px;
+    position: absolute;
+    top:0;
+    left: 50%;
+    transform: translate(-50%,0%);
+  }
+}
+
+@media only screen and (max-height:1400px)
+{
+  #Evaluaion_MultiChart_Content_Wrapper
+  {
+    height: calc(100% - 50px);
+    /* margin-left: 100px; */
+    margin-top: 50px;
+    position: absolute;
+    top:0;
+    left: 50%;
+    transform: translate(-50%,0%);
+    
+  }
+}
+#Evaluaion_NewEvaluation_Back_Button_Div1{
+  display: block;
+  position: absolute;
+  left:20px;
+}

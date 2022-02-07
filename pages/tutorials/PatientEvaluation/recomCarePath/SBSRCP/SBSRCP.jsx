@@ -6,7 +6,7 @@ import MyContext from "../../../../helper/themeContext";
 
 import Img1 from "../../../assets/SBSRCP.png";
 
-import "./SBSRCP.css";
+import Image from 'next/image'
 
 class SBSRCP extends Component {
   constructor(props) {
@@ -30,7 +30,7 @@ class SBSRCP extends Component {
             </div>
             <div id="SBSRCP_Image_Wrapper">
               <div id="SBSRCP_Image_Container">
-                <img style={{ maxWidth: "95%" }} src={Img1} alt="SBSRCP1" />
+                <img  style={{ maxWidth: "95%" }} src={Img1} alt="SBSRCP1" />
               </div>
             </div>
             <div id="SBSRCP_Next_Button_Div">
@@ -38,7 +38,7 @@ class SBSRCP extends Component {
                 id="SBSRCP_Next_Button"
                 variant="contained"
                 onClick={() => {
-                  this.context.history.push("./what-is-care-pathway");
+                  this.context.Navigate("./what-is-care-pathway");
                 }}>
                 {" "}
                 Back{" "}
@@ -48,7 +48,7 @@ class SBSRCP extends Component {
                 variant="contained"
                 onClick={() => {
                   this.context.setCookie("tutorial-" + this.context.state.user_id, 8);
-                  this.context.history.push("./understanding-care-pathways");
+                  this.context.Navigate("./understanding-care-pathways");
                 }}>
                 {" "}
                 NEXT{" "}

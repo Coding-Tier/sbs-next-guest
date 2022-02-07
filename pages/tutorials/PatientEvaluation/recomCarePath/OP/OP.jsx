@@ -6,7 +6,7 @@ import MyContext from "../../../../helper/themeContext";
 
 import Img1 from "../../../assets/OP.png";
 
-import "./OP.css";
+import Image from 'next/image'
 
 class OP extends Component {
   constructor(props) {
@@ -27,7 +27,7 @@ class OP extends Component {
             </div>
             <div id="OP_Image_Wrapper">
               <div id="OP_Image_Container">
-                <img style={{ maxWidth: "85%" }} src={Img1} alt="OP1" />
+                <img  style={{ maxWidth: "85%" }} src={Img1} alt="OP1" />
               </div>
             </div>
             <div id="OP_Next_Button_Div">
@@ -35,7 +35,7 @@ class OP extends Component {
                 id="OP_Next_Button"
                 variant="contained"
                 onClick={() => {
-                  this.context.history.push("./non-operative-pathway");
+                  this.context.Navigate("./non-operative-pathway");
                 }}>
                 {" "}
                 Back{" "}
@@ -45,7 +45,7 @@ class OP extends Component {
                 variant="contained"
                 onClick={() => {
                   this.context.setCookie("tutorial-" + this.context.state.user_id, 8);
-                  this.context.history.push("./bone-and-joint-health-and-surgery-prep-program");
+                  this.context.Navigate("./bone-and-joint-health-and-surgery-prep-program");
                 }}>
                 {" "}
                 NEXT{" "}

@@ -4,6 +4,7 @@ import Image1 from "../../assets/Patient_Evaluation_home.png";
 // import "./Knee.css";
 import MyContext from "../../helper/themeContext";
 
+import Image from 'next/image'
 class PatientEvaluation extends Component {
   constructor(props) {
     super(props);
@@ -26,7 +27,7 @@ class PatientEvaluation extends Component {
                 <div className="Home_Button_Div">
                   <Button id="Home_Button" variant="contained"
                     onClick={() =>
-                      this.context.history.push("/tutorials/patient-evaluation-education/understanding-pros")
+                      this.context.Navigate("/tutorials/patient-evaluation-education/understanding-pros")
                     } disabled={false}>
                     {" "}
                     Understanding PROs{" "}
@@ -38,7 +39,7 @@ class PatientEvaluation extends Component {
                     id="Home_Button"
                     variant="contained"
                     onClick={() =>
-                      this.context.history.push("/tutorials/patient-evaluation-education/xray-evaluation")
+                      this.context.Navigate("/tutorials/patient-evaluation-education/xray-evaluation")
                     }>
                     {" "}
                     X-ray Evaluation{" "}
@@ -50,7 +51,7 @@ class PatientEvaluation extends Component {
                     id="Home_Button"
                     variant="contained"
                     onClick={() =>
-                      this.context.history.push(
+                      this.context.Navigate(
                         "/tutorials/patient-evaluation-education/recommended-carepathway/welcome"
                       )
                     }>
@@ -73,7 +74,7 @@ class PatientEvaluation extends Component {
             <Grid item xs={12} md={4} lg={4} xl={4} className="image-grid">
               <div id="Home_Image_div_wrapper">
                 <div id="Home_Image_div_patient_evaluation_home">
-                  <img src={Image1} alt="SBS" id="Home_Image_Bone" />
+                  <img  src={Image1} alt="SBS" id="Home_Image_Bone" />
                 </div>
                 <div className="Home_Button_Div">
                   <Button
@@ -81,7 +82,7 @@ class PatientEvaluation extends Component {
                     variant="contained"
                     style={{ width: "250px" }}
                     onClick={() => {
-                      this.context.history.push("/home");
+                      this.context.Navigate("/home");
                     }}>
                     {" "}
                     BACK TO HOME{" "}

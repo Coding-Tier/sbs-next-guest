@@ -6,8 +6,7 @@ import MyContext from "../../helper/themeContext";
 
 import Bone1Image from "../../assets/bone1_Bitmap.png";
 
-import "./LearnMore.css";
-
+import Image from 'next/image'
 class LearnMore extends Component {
   constructor(props) {
     super(props);
@@ -34,7 +33,7 @@ class LearnMore extends Component {
               id="Tutorials_LearnMore_Next_Button"
               variant="contained"
               onClick={() => {
-                this.context.history.push("/");
+                this.context.Navigate("/");
               }}
             >
               {" "}
@@ -43,7 +42,7 @@ class LearnMore extends Component {
           </div>
         </div>
         <div id="Tutorials_LearnMore_Image_div">
-          <img src={Bone1Image} alt="SBS" id="Tutorials_LearnMore_Image_Bone" />
+          <img  src={Bone1Image} alt="SBS" id="Tutorials_LearnMore_Image_Bone" />
         </div>
       </div>
     );

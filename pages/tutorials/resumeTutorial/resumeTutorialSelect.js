@@ -13,49 +13,49 @@ class ResumeTutorialSelect extends Component {
 
     handleRecover = () => {
         let page = this.context.getCookie('tutorial-' + this.context.state.user_id);
-        if (page == 1) { this.context.history.push('/tutorials/sbs/video') }
-        else if (page == 2) { this.context.history.push('/tutorials/sbs/video2') }
-        else if (page == 3) { this.context.history.push('/tutorials/knee-Arthiritis/welcome') }
-        else if (page == 4) { this.context.history.push('/tutorials/knee-Arthiritis/overview') }
-        else if (page == 5) { this.context.history.push('/tutorials/knee-Arthiritis/knee-degeneration-and-arthritis-2') }
-        else if (page == 6) { this.context.history.push('/tutorials/knee-Arthiritis/knee-degeneration-and-arthritis') }
-        else if (page == 7) { this.context.history.push('/tutorials/knee-Arthiritis/compartments-of-the-knee') }
-        else if (page == 8) { this.context.history.push('/tutorials/knee-Arthiritis/viewing-degeneration-with-x-rays-copy') }
-        else if (page == 9) { this.context.history.push('/tutorials/knee-Arthiritis/learn-about-the-medial-and-lateral-compartments-of-the-knee') }
-        else if (page == 10) { this.context.history.push('/tutorials/knee-Arthiritis/viewing-degeneration-with-x-rays-the-kneecap-compartment') }
-        else if (page == 11) { this.context.history.push('/tutorials/knee-Arthiritis/compartments-of-the-knee-2') }
-        else if (page == 12) { this.context.history.push('/tutorials/knee-Arthiritis/evaluating-the-medial-and-lateral-compartments-v2') }
-        else if (page == 13) { this.context.history.push('/tutorials/knee-Arthiritis/evaluating-the-kneecap-compartment') }
-        else if (page == 14) { this.context.history.push('/tutorials/knee-Arthiritis/lateral-view') }
-        else if (page == 15) { this.context.history.push('/tutorials/knee-Arthiritis/obtaining-the-correct-x-rays') }
-        else if (page == 16) { this.context.history.push('/tutorials/knee-Arthiritis/summary-of-x-ray-views-necessary-based-on-patients-symptoms') }
-        else if (page == 17) { this.context.history.push('/tutorials/knee-Arthiritis/what-x-rays-would-you-request') }
-        else if (page == 18) { this.context.history.push('/tutorials/knee-Arthiritis/evaluating-knee-degeneration-with-x-rays') }
-        else if (page == 19) { this.context.history.push('/tutorials/knee-Arthiritis/how-to-identify-joint-space-narrowing-and-degeneration') }
-        else if (page == 20) { this.context.history.push('/tutorials/knee-Arthiritis/where-does-the-joint-space-start-and-end-for-the-medial-and-lateral-compartments') }
-        else if (page == 21) { this.context.history.push('/tutorials/knee-Arthiritis/where-does-the-joint-space-start-and-end-for-the-medial-and-lateral-compartments-2') }
-        else if (page == 22) { this.context.history.push('/tutorials/knee-Arthiritis/levels-of-joint-space-narrowing-degeneration') }
-        else if (page == 23) { this.context.history.push('/tutorials/knee-Arthiritis/joint-space-narrowing-medial-compartment') }
-        else if (page == 24) { this.context.history.push('/tutorials/knee-Arthiritis/joint-space-narrowing-lateral-compartment') }
-        else if (page == 25) { this.context.history.push('/tutorials/knee-Arthiritis/where-is-the-joint-space-for-the-kneecap-compartment') }
-        else if (page == 26) { this.context.history.push('/tutorials/knee-Arthiritis/you-must-look-at-the-joint-space-on-both-sides-of-the-kneecap') }
-        else if (page == 27) { this.context.history.push('/tutorials/knee-Arthiritis/joint-space-narrowing-kneecap-compartment') }
-        else if (page == 28) { this.context.history.push('/tutorials/knee-Arthiritis/x-ray-matching-a-tool-to-determine-levels-of-degeneration') }
-        else if (page == 29) { this.context.history.push('/tutorials/knee-Arthiritis/x-ray-matching-and-levels-of-degeneration') }
-        else if (page == 30) { this.context.history.push('/tutorials/knee-Arthiritis/x-ray-matching-moderate-selected') }
-        else if (page == 31) { this.context.history.push('/tutorials/knee-Arthiritis/congrats') }
-        else if (page == 32) { this.context.history.push('/tutorials/matching-education/welcome') }
-        else if (page == 33) { this.context.history.push('/tutorials/matching-education/video') }
-        else if (page == 34) { this.context.history.push('/tutorials/matching-education/lets-get-started') }
-        else if (page == 35) { this.context.history.push('/tutorials/matching-education/matching-tutorial') }
-        else if (page == 36) { this.context.history.push('/tutorials/matching-education/video2') }
-        else if (page == 37) { this.context.history.push('/tutorials/matching-education/report') }
-        else if (page == 38) { this.context.history.push('/tutorials/matching-training/welcome') }
-        else if (page == 39) { this.context.history.push('/tutorials/matching-training/matching-tutorial') }
-        else if (page == 40) { this.context.history.push('/tutorials/matching-training/congratulations') }
-        else if (page == 41) { this.context.history.push('/evaluation/welcome') }
+        if (page == 1) { this.context.Navigate('/tutorials/sbs/video') }
+        else if (page == 2) { this.context.Navigate('/tutorials/sbs/video2') }
+        else if (page == 3) { this.context.Navigate('/tutorials/knee/knee-arthiritis/welcome') }
+        else if (page == 4) { this.context.Navigate('/tutorials/knee/knee-arthiritis/overview') }
+        else if (page == 5) { this.context.Navigate('/tutorials/knee/knee-arthiritis/knee-degeneration-and-arthritis-2') }
+        else if (page == 6) { this.context.Navigate('/tutorials/knee/knee-arthiritis/knee-degeneration-and-arthritis') }
+        else if (page == 7) { this.context.Navigate('/tutorials/knee/knee-arthiritis/compartments-of-the-knee') }
+        else if (page == 8) { this.context.Navigate('/tutorials/knee/knee-arthiritis/viewing-degeneration-with-x-rays-copy') }
+        else if (page == 9) { this.context.Navigate('/tutorials/knee/knee-arthiritis/learn-about-the-medial-and-lateral-compartments-of-the-knee') }
+        else if (page == 10) { this.context.Navigate('/tutorials/knee/knee-arthiritis/viewing-degeneration-with-x-rays-the-kneecap-compartment') }
+        else if (page == 11) { this.context.Navigate('/tutorials/knee/knee-arthiritis/compartments-of-the-knee-2') }
+        else if (page == 12) { this.context.Navigate('/tutorials/knee/knee-arthiritis/evaluating-the-medial-and-lateral-compartments-v2') }
+        else if (page == 13) { this.context.Navigate('/tutorials/knee/knee-arthiritis/evaluating-the-kneecap-compartment') }
+        else if (page == 14) { this.context.Navigate('/tutorials/knee/knee-arthiritis/lateral-view') }
+        else if (page == 15) { this.context.Navigate('/tutorials/knee/knee-arthiritis/obtaining-the-correct-x-rays') }
+        else if (page == 16) { this.context.Navigate('/tutorials/knee/knee-arthiritis/summary-of-x-ray-views-necessary-based-on-patients-symptoms') }
+        else if (page == 17) { this.context.Navigate('/tutorials/knee/knee-arthiritis/what-x-rays-would-you-request') }
+        else if (page == 18) { this.context.Navigate('/tutorials/knee/knee-arthiritis/evaluating-knee-degeneration-with-x-rays') }
+        else if (page == 19) { this.context.Navigate('/tutorials/knee/knee-arthiritis/how-to-identify-joint-space-narrowing-and-degeneration') }
+        else if (page == 20) { this.context.Navigate('/tutorials/knee/knee-arthiritis/where-does-the-joint-space-start-and-end-for-the-medial-and-lateral-compartments') }
+        else if (page == 21) { this.context.Navigate('/tutorials/knee/knee-arthiritis/where-does-the-joint-space-start-and-end-for-the-medial-and-lateral-compartments-2') }
+        else if (page == 22) { this.context.Navigate('/tutorials/knee/knee-arthiritis/levels-of-joint-space-narrowing-degeneration') }
+        else if (page == 23) { this.context.Navigate('/tutorials/knee/knee-arthiritis/joint-space-narrowing-medial-compartment') }
+        else if (page == 24) { this.context.Navigate('/tutorials/knee/knee-arthiritis/joint-space-narrowing-lateral-compartment') }
+        else if (page == 25) { this.context.Navigate('/tutorials/knee/knee-arthiritis/where-is-the-joint-space-for-the-kneecap-compartment') }
+        else if (page == 26) { this.context.Navigate('/tutorials/knee/knee-arthiritis/you-must-look-at-the-joint-space-on-both-sides-of-the-kneecap') }
+        else if (page == 27) { this.context.Navigate('/tutorials/knee/knee-arthiritis/joint-space-narrowing-kneecap-compartment') }
+        else if (page == 28) { this.context.Navigate('/tutorials/knee/knee-arthiritis/x-ray-matching-a-tool-to-determine-levels-of-degeneration') }
+        else if (page == 29) { this.context.Navigate('/tutorials/knee/knee-arthiritis/x-ray-matching-and-levels-of-degeneration') }
+        else if (page == 30) { this.context.Navigate('/tutorials/knee/knee-arthiritis/x-ray-matching-moderate-selected') }
+        else if (page == 31) { this.context.Navigate('/tutorials/knee/knee-arthiritis/congrats') }
+        else if (page == 32) { this.context.Navigate('/tutorials/matching-education/welcome') }
+        else if (page == 33) { this.context.Navigate('/tutorials/matching-education/video') }
+        else if (page == 34) { this.context.Navigate('/tutorials/matching-education/lets-get-started') }
+        else if (page == 35) { this.context.Navigate('/tutorials/matching-education/matching-tutorial') }
+        else if (page == 36) { this.context.Navigate('/tutorials/matching-education/video2') }
+        else if (page == 37) { this.context.Navigate('/tutorials/matching-education/report') }
+        else if (page == 38) { this.context.Navigate('/tutorials/matching-training/welcome') }
+        else if (page == 39) { this.context.Navigate('/tutorials/matching-training/matching-tutorial') }
+        else if (page == 40) { this.context.Navigate('/tutorials/matching-training/congratulations') }
+        else if (page == 41) { this.context.Navigate('/evaluation/welcome') }
 
-        // else if(page==33){ this.context.history.push('/tutorials/knee-Arthiritis/evaluating-the-kneecap-compartment')}
+        // else if(page==33){ this.context.Navigate('/tutorials/knee/knee-arthiritis/evaluating-the-kneecap-compartment')}
 
     }
 
@@ -65,11 +65,11 @@ class ResumeTutorialSelect extends Component {
         // GetData(this.context.baseUrl+'./api/v1/delete/report',200,this.context.state.token,this.setMeTwo)
 
         this.context.setCookie('tutorial-' + this.context.state.user_id, '');
-        this.props.history.push('/tutorials/sbs/welcome')
+        this.props.Navigate('/tutorials/sbs/welcome')
 
 
         // this.context.discardLeft();
-        // this.props.history.push('/evaluation/welcome')
+        // this.props.Navigate('/evaluation/welcome')
     }
 
 

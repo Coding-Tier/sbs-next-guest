@@ -6,7 +6,7 @@ import MyContext from "../../../../helper/themeContext";
 
 import Img1 from "../../../assets/NOP.png";
 
-import "./NOP.css";
+import Image from 'next/image'
 
 class NOP extends Component {
   constructor(props) {
@@ -26,7 +26,7 @@ class NOP extends Component {
             </div>
             <div id="NOP_Image_Wrapper">
               <div id="NOP_Image_Container">
-                <img src={Img1} alt="NOP1" style={{maxWidth:'100%'}}/>
+                <img  src={Img1} alt="NOP1" style={{maxWidth:'100%'}}/>
               </div>
             </div>
             <div id="NOP_Next_Button_Div">
@@ -34,7 +34,7 @@ class NOP extends Component {
                 id="NOP_Next_Button"
                 variant="contained"
                 onClick={() => {
-                  this.context.history.push("./overall-care-pathway");
+                  this.context.Navigate("./overall-care-pathway");
                 }}>
                 {" "}
                 Back{" "}
@@ -44,7 +44,7 @@ class NOP extends Component {
                 variant="contained"
                 onClick={() => {
                   this.context.setCookie("tutorial-" + this.context.state.user_id, 8);
-                  this.context.history.push("./operative-pathway");
+                  this.context.Navigate("./operative-pathway");
                 }}>
                 {" "}
                 NEXT{" "}

@@ -6,7 +6,7 @@ import MyContext from "../../../../helper/themeContext";
 
 import Img1 from "../../../assets/WIACP.png";
 
-import "./WIACP.css";
+import Image from 'next/image'
 
 class WIACP extends Component {
   constructor(props) {
@@ -27,7 +27,7 @@ class WIACP extends Component {
             </div>
             <div id="WIACP_Image_Wrapper">
               <div id="WIACP_Image_Container">
-                <img src={Img1} alt="WIACP1" style={{maxWidth:'100%'}} />
+                <img  src={Img1} alt="WIACP1" style={{maxWidth:'100%'}} />
               </div>
             </div>
             <div id="WIACP_Next_Button_Div">
@@ -35,7 +35,7 @@ class WIACP extends Component {
                 id="WIACP_Next_Button"
                 variant="contained"
                 onClick={() => {
-                  this.context.history.push("./welcome");
+                  this.context.Navigate("./welcome");
                 }}>
                 {" "}
                 Back{" "}
@@ -45,7 +45,7 @@ class WIACP extends Component {
                 variant="contained"
                 onClick={() => {
                   this.context.setCookie("tutorial-" + this.context.state.user_id, 8);
-                  this.context.history.push("./step-by-step-recommended-care-pathway");
+                  this.context.Navigate("./step-by-step-recommended-care-pathway");
                 }}>
                 {" "}
                 NEXT{" "}

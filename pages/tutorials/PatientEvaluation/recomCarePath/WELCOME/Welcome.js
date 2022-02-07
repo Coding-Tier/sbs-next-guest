@@ -4,6 +4,8 @@ import Button from "@material-ui/core/Button";
 import MyContext from "../../../../helper/themeContext";
 
 import Bone1Image from "../../../../assets/bone1_Bitmap.png";
+
+import Image from 'next/image'
 class Welcome extends Component {
   render() {
     return (
@@ -21,7 +23,7 @@ class Welcome extends Component {
               id="Evaluaion_Welcome_Next_Button"
               variant="contained"
               onClick={() => {
-                this.context.history.push("./what-is-care-pathway");
+                this.context.Navigate("./what-is-care-pathway");
               }}>
               {" "}
               Continue{" "}
@@ -29,7 +31,7 @@ class Welcome extends Component {
           </div>
         </div>
         <div id="Evaluaion_Welcome_Image_div">
-          <img src={Bone1Image} alt="SBS" id="Evaluaion_Welcome_Image_Bone" />
+          <img  src={Bone1Image} alt="SBS" id="Evaluaion_Welcome_Image_Bone" />
         </div>
       </div>
     );

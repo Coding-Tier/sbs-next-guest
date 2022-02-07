@@ -6,7 +6,7 @@ import MyContext from "../../../../helper/themeContext";
 
 import Img1 from "../../../assets/BAJHASPP.png";
 
-import "./BAJHASPP.css";
+import Image from 'next/image'
 
 class BAJHASPP extends Component {
   constructor(props) {
@@ -29,7 +29,7 @@ class BAJHASPP extends Component {
             </div>
             <div id="BAJHASPP_Image_Wrapper">
               <div id="BAJHASPP_Image_Container">
-                <img style={{ maxWidth: "78%" }} src={Img1} alt="BAJHASPP1" />
+                <img  style={{ maxWidth: "78%" }} src={Img1} alt="BAJHASPP1" />
               </div>
             </div>
             <div id="BAJHASPP_Next_Button_Div">
@@ -37,7 +37,7 @@ class BAJHASPP extends Component {
                 id="BAJHASPP_Next_Button"
                 variant="contained"
                 onClick={() => {
-                  this.context.history.push("./operative-pathway");
+                  this.context.Navigate("./operative-pathway");
                 }}>
                 {" "}
                 Back{" "}
@@ -47,7 +47,7 @@ class BAJHASPP extends Component {
                 variant="contained"
                 onClick={() => {
                   this.context.setCookie("tutorial-" + this.context.state.user_id, 8);
-                  this.context.history.push("./understanding-care-pathways");
+                  this.context.Navigate("./understanding-care-pathways");
                 }}>
                 {" "}
                 NEXT{" "}

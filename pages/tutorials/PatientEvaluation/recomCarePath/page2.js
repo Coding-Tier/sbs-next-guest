@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import Image from '../assets/image3.png'
 import { Button } from '@material-ui/core';
-
-import './page2.css';
 import MyContext from '../helper/themeContext';
+
+import Image from 'next/image'
 
 class OverallCare extends Component {
   constructor(props) {
@@ -17,7 +17,7 @@ class OverallCare extends Component {
           OVERALL CARE PATHWAY
           </div>
         <div id="Recom_Overall_Image_Wrapper">
-          <img src={Image} alt="SBS" id="Recom_Overall_Image" />
+          <img  src={Image} alt="SBS" id="Recom_Overall_Image" />
         </div>
 
         <div id="Evaluaion_Welcome_Next_Button_Div">
@@ -25,7 +25,7 @@ class OverallCare extends Component {
             id="Evaluaion_Welcome_Next_Button"
             variant="contained"
             onClick={() => {
-              this.context.history.push("./welcome");
+              this.context.Navigate("./welcome");
             }}
           >
             {" "}
@@ -37,7 +37,7 @@ class OverallCare extends Component {
             style={{ float: 'right' }}
             variant="contained"
             onClick={() => {
-              this.context.history.push("/Evaluation/evaluation-history");
+              this.context.Navigate("/Evaluation/evaluation-history");
             }}
           >
             {" "}

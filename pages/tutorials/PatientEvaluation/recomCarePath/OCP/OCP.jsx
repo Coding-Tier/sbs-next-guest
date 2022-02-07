@@ -6,7 +6,7 @@ import MyContext from "../../../../helper/themeContext";
 
 import Img1 from "../../../assets/OCP.png";
 
-import "./OCP.css";
+import Image from 'next/image'
 
 class OCP extends Component {
   constructor(props) {
@@ -26,7 +26,7 @@ class OCP extends Component {
             </div>
             <div id="OCP_Image_Wrapper">
               <div id="OCP_Image_Container">
-                <img src={Img1} alt="OCP1" style={{maxWidth:'100%'}}/>
+                <img  src={Img1} alt="OCP1" style={{maxWidth:'100%'}}/>
               </div>
             </div>
             <div id="OCP_Next_Button_Div">
@@ -34,7 +34,7 @@ class OCP extends Component {
                 id="OCP_Next_Button"
                 variant="contained"
                 onClick={() => {
-                  this.context.history.push("./step-by-step-recommended-care-pathway");
+                  this.context.Navigate("./step-by-step-recommended-care-pathway");
                 }}>
                 {" "}
                 Back{" "}
@@ -44,7 +44,7 @@ class OCP extends Component {
                 variant="contained"
                 onClick={() => {
                   this.context.setCookie("tutorial-" + this.context.state.user_id, 8);
-                  this.context.history.push("./non-operative-pathway");
+                  this.context.Navigate("./non-operative-pathway");
                 }}>
                 {" "}
                 NEXT{" "}
