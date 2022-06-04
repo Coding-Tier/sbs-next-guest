@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Grid, Button } from "@material-ui/core";
-import KneeImage from "../../assets/knee_evaluation_home.png";
-import MyContext from "../../helper/themeContext";
+import KneeImage from "../../../assets/knee_evaluation_home.png";
+import MyContext from "../../../helper/themeContext";
 
 import Image from 'next/image'
 

@@ -125,7 +125,7 @@ class Guest extends Component {
                       id="Home_Button"
                       variant="contained"
                       onClick={() => {
-                        this.context.Navigate("./tutorials/hip/options");
+                        this.context.Navigate("./tutorials/hip");
                       }}
                     >
                       {" "}

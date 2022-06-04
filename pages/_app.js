@@ -48,11 +48,18 @@ const baseUrl = baseUrlA;
     const tsetState = (newState) =>
     {
         if(window==window.top) {
+            setState({
+                ...sessionVariables,
+                ...newState,
+                loading:false
+            })
             // not in an iframe
         }
 
         else
         {
+            alert('eher')
+
             console.log(newState)
             setState({
                 ...sessionVariables,
@@ -124,7 +131,6 @@ const baseUrl = baseUrlA;
                 multipleUpdateValueWithHistory:multipleUpdateValueWithHistory
             }}
         >
-
             <link
             href="https://fonts.googleapis.com/css?family=Lato&amp;display=swap"
             rel="stylesheet"
@@ -132,7 +138,7 @@ const baseUrl = baseUrlA;
             <Component {...pageProps} />
         </MyContext.Provider>
         ) : (
-            <div>Loading</div>
+            <div>Loadng</div>
         );
   }
    
