@@ -9,7 +9,7 @@ import NoMatching from "../../../../assets/no_matching.png";
 import NotesIcon from "../../../../assets/notes.png";
 
 import MNFV from "../../../../assets/eval-comp-xrays/thumb/Right AP Z2.png";
-import MNFVUP from "../../../../assets/hip/xray_ai/Asset6APZ2.png";
+// import MNFVUP from "../../../../assets/hip/xray_ai/Asset6APZ2.png";
 import CEimage from "../../../../assets/eval-comp-xrays/cannotEval.jpg";
 
 // import "./matching.css";
@@ -25,6 +25,8 @@ const MNFVUP1 = "https://firebasestorage.googleapis.com/v0/b/sbs-stag.appspot.co
 const MNFVUP2 = "https://firebasestorage.googleapis.com/v0/b/sbs-stag.appspot.com/o/tutorialassets%2Fhip%2FShortHipEdu%2FXMZ2%2F2.png?alt=media";
 const MNFVUP3 = "https://firebasestorage.googleapis.com/v0/b/sbs-stag.appspot.com/o/tutorialassets%2Fhip%2FShortHipEdu%2FXMZ2%2F3.png?alt=media";
 const MNFVUP4 = "https://firebasestorage.googleapis.com/v0/b/sbs-stag.appspot.com/o/tutorialassets%2Fhip%2FShortHipEdu%2FXMZ2%2F4.png?alt=media";
+
+const MNFVUP = "https://firebasestorage.googleapis.com/v0/b/sbs-stag.appspot.com/o/tutorialassets%2Fhip%2FShortHipEdu%2FXMZ2%2F5.png?alt=media"  //patient-xray
 
 
 // const MNFVUP1 = "https://firebasestorage.googleapis.com/v0/b/sbs-stag.appspot.com/o/tutorialassets%2Fhip%2Fcomparision_images_global%2FAP_Normal_Z2.png?alt=media";
