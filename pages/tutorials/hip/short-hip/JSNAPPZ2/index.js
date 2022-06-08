@@ -14,11 +14,11 @@ import MyContext from "../../../../helper/themeContext";
 
 
 const Img1 = "https://firebasestorage.googleapis.com/v0/b/sbs-stag.appspot.com/o/tutorialassets%2Fhip%2FShortHipEdu%2FJSNAPPZ2%2F1.png?alt=media";
-const Img2 = "https://firebasestorage.googleapis.com/v0/b/sbs-stag.appspot.com/o/tutorialassets%2Fhip%2FShortHipEdu%2FJSNAPPZ2%22.png?alt=media";
-const Img3 = "https://firebasestorage.googleapis.com/v0/b/sbs-stag.appspot.com/o/tutorialassets%2Fhip%2FShortHipEdu%2FJSNAPPZ2%23.png?alt=media";
-const Img4 = "https://firebasestorage.googleapis.com/v0/b/sbs-stag.appspot.com/o/tutorialassets%2Fhip%2FShortHipEdu%2FJSNAPPZ2%24.png?alt=media";
+const Img2 = "https://firebasestorage.googleapis.com/v0/b/sbs-stag.appspot.com/o/tutorialassets%2Fhip%2FShortHipEdu%2FJSNAPPZ2%2F2.png?alt=media";
+const Img3 = "https://firebasestorage.googleapis.com/v0/b/sbs-stag.appspot.com/o/tutorialassets%2Fhip%2FShortHipEdu%2FJSNAPPZ2%2F3.png?alt=media";
+const Img4 = "https://firebasestorage.googleapis.com/v0/b/sbs-stag.appspot.com/o/tutorialassets%2Fhip%2FShortHipEdu%2FJSNAPPZ2%2F4.png?alt=media";
 const Img5 = "https://firebasestorage.googleapis.com/v0/b/sbs-stag.appspot.com/o/tutorialassets%2Fhip%2FShortHipEdu%2FJSNAPPZ2%2F5.png?alt=media";
-const Bulb = "https://firebasestorage.googleapis.com/v0/b/sbs-stag.appspot.com/o/tutorialassets%2Fhip%2FShortHipEdu%2Fbulbimage.png?alt=media"
+const Bulb = "https://firebasestorage.googleapis.com/v0/b/sbs-stag.appspot.com/o/tutorialassets%2Fhip%2FAboutHip%2Fbulbimage.png?alt=media"
 
 const NextPage = "/tutorials/hip/short-hip/CXE";
 const BackPage = "/tutorials/hip/short-hip/JSNAPPZ1";

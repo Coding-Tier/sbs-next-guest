@@ -19,7 +19,7 @@ const Img1 = "https://firebasestorage.googleapis.com/v0/b/sbs-stag.appspot.com/o
 const Img2 = "https://firebasestorage.googleapis.com/v0/b/sbs-stag.appspot.com/o/tutorialassets%2Fhip%2FShortHipEdu%2FJSNAPPZ1%2F2.png?alt=media";
 const Img3 = "https://firebasestorage.googleapis.com/v0/b/sbs-stag.appspot.com/o/tutorialassets%2Fhip%2FShortHipEdu%2FJSNAPPZ1%2F3.png?alt=media";
 const Img4 = "https://firebasestorage.googleapis.com/v0/b/sbs-stag.appspot.com/o/tutorialassets%2Fhip%2FShortHipEdu%2FJSNAPPZ1%2F4.png?alt=media";
-const Img5 = "https://firebasestorage.googleapis.com/v0/b/sbs-stag.appspot.com/o/tutorialassets%2Fhip%2FShortHipEdu%2FJSNAPPZ1%2FLOJSND2.png?alt=media";
+const Img5 = "https://firebasestorage.googleapis.com/v0/b/sbs-stag.appspot.com/o/tutorialassets%2Fhip%2FShortHipEdu%2FJSNAPPZ1%2F5.png?alt=media";
 
 const Bulb = "https://firebasestorage.googleapis.com/v0/b/sbs-stag.appspot.com/o/tutorialassets%2Fhip%2FAboutHip%2Fbulbimage.png?alt=media"
 
