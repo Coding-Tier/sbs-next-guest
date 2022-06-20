@@ -58,7 +58,6 @@ const baseUrl = baseUrlA;
 
         else
         {
-            alert('eher')
 
             console.log(newState)
             setState({
