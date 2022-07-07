@@ -12,7 +12,7 @@ import Bone1Image from "../../../../assets/bone1_Bitmap.png";
 // const tutorialCompleteId = 5;
 
 const NextPage = "/home";
-const BackPage = "/tutorials/knee/short-knee/Sample-knee-eval";
+const BackPage = "/tutorials/hip/short-hip/Sample-hip-eval";
 
 class Congrats extends Component {
   constructor(props) {
