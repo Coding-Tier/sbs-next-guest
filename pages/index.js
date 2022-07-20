@@ -97,7 +97,7 @@ class Guest extends Component {
                       id="Home_Button"
                       variant="contained"
                       onClick={() => {
-                        this.context.Navigate("./tutorials/sbs/welcome");
+                        this.context.Navigate("./tutorials/sbs/what-is-sbs/video");
                       }}
                     >
                       Get Started
