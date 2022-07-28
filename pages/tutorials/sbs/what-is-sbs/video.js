@@ -19,6 +19,23 @@ class SBSVideo extends Component {
     this.setState({ loading: false })
   }
 
+  _setComplete = () =>
+  {
+    // let req = {
+    //   id:1
+    // }
+    // PostData(this.context.baseUrl + '/api/v1/user/tutorials/complete-tutorial',200,req,this.context.state.token,this._handleComplete)
+  }
+
+  _checkComplete = () =>
+  {
+    if(this.context.checkGuesUserMode())
+    {
+      this.context.Navigate('/home')
+    }
+    else this._setComplete();
+  }
+
   render() {
     return (
       <div id="SBSVideo_Main_Div">
@@ -46,17 +63,17 @@ class SBSVideo extends Component {
                 id="SBSVideo_Next_Button"
                 variant="contained"
                 onClick={() => {
-                  this.context.setCookie(
-                    "tutorial-" + this.context.state.user_id,
-                    2
-                  );
-                  this.context.Navigate(
-                    "/tutorials/sbs/navigation-video"
-                  );
+                  // this.context.setCookie(
+                  //   "tutorial-" + this.context.state.user_id,
+                  //   2
+                  // );
+                  // this.context.Navigate(
+                  //   "/tutorials/sbs/navigation-video"
+                  // );
+                  this._checkComplete()
                 }}
               >
-                {" "}
-                Continue{" "}
+                {" "}BACK TO HOME{" "}
               </Button>
             </div>
           </div>
