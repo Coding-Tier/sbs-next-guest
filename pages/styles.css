@@ -5117,10 +5117,10 @@ body {
   }
   
   #Evaluaion_XrayMatching_Matching_Content2_Wrapper {
-    float: left;
+    /* float: left; */
     /* width:35%; */
     /* min-width:250px; */
-    max-width: 700px;
+    max-width: 400px;
     height: 100vh;
   
     display: flex;
@@ -5150,13 +5150,13 @@ body {
   }
   
   .Evaluaion_XrayMatching_Matching_Xray_Image {
-    max-width: 500px;
+    max-width: 400px;
     /* margin-top: -70px; */
     max-height: calc(50vh - 50px);
   }
   
   .Evaluaion_XrayMatching_Matching_Xray_Image_Compairing {
-    max-width: 500px;
+    max-width: 400px;
     max-height: calc(50vh - 50px);
   }
   

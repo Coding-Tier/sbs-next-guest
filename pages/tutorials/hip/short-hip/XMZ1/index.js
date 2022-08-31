@@ -11,11 +11,11 @@ import NotesIcon from "../../../../assets/notes.png";
 // import MFVUP from "../../../../assets/hip/xray_ai/Asset5APZ1.png";
 import CEimage from "../../../../assets/eval-comp-xrays/cannotEval.jpg";
 
-import MFVUP1 from "../../../../assets/shortHipEdu/XMZ1/1.png" ;
-import MFVUP2 from "../../../../assets/shortHipEdu/XMZ1/2.png" ;
-import MFVUP3 from "../../../../assets/shortHipEdu/XMZ1/3.png" ;
-import MFVUP4 from "../../../../assets/shortHipEdu/XMZ1/4.png" ;
-import MFVUP from "../../../../assets/shortHipEdu/XMZ1/5.png"  //patient-xray
+import MFVUP1 from "../../../../assets/shortHipEdu/XMZ1/1.png";
+import MFVUP2 from "../../../../assets/shortHipEdu/XMZ1/2.png";
+import MFVUP3 from "../../../../assets/shortHipEdu/XMZ1/3.png";
+import MFVUP4 from "../../../../assets/shortHipEdu/XMZ1/4.png";
+import MFVUP from "../../../../assets/shortHipEdu/XMZ1/5.png";  //patient-xray
 import MFV from "../../../../assets/eval-comp-xrays/thumb/Right AP Z1.png";
 
 // import "./matching.css";
