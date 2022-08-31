@@ -12,6 +12,12 @@ import MNFV from "../../../../assets/eval-comp-xrays/thumb/Right AP Z2.png";
 // import MNFVUP from "../../../../assets/hip/xray_ai/Asset6APZ2.png";
 import CEimage from "../../../../assets/eval-comp-xrays/cannotEval.jpg";
 
+import MNFVUP1 from "../../../../assets/shortHipEdu/XMZ2/1.png" ;
+import MNFVUP2 from "../../../../assets/shortHipEdu/XMZ2/2.png" ;
+import MNFVUP3 from "../../../../assets/shortHipEdu/XMZ2/3.png" ;
+import MNFVUP4 from "../../../../assets/shortHipEdu/XMZ2/4.png" ;
+import MNFVUP from "../../../../assets/shortHipEdu/XMZ1/5.png"  //patient-xray
+
 // import "./matching.css";
 
 const NextPage = "/tutorials/hip/short-hip/Sample-hip-eval"
@@ -28,11 +34,7 @@ const NextPage = "/tutorials/hip/short-hip/Sample-hip-eval"
 
 // const MNFVUP = "https://firebasestorage.googleapis.com/v0/b/sbs-stag.appspot.com/o/tutorialassets%2Fhip%2FShortHipEdu%2FXMZ2%2F5.png?alt=media"  //patient-xray
 
-import MNFVUP1 from "../../../../assets/shortHipEdu/XMZ2/1.png" ;
-import MNFVUP2 from "../../../../assets/shortHipEdu/XMZ2/2.png" ;
-import MNFVUP3 from "../../../../assets/shortHipEdu/XMZ2/3.png" ;
-import MNFVUP4 from "../../../../assets/shortHipEdu/XMZ2/4.png" ;
-import MNFVUP from "../../../../assets/shortHipEdu/XMZ1/5.png"  //patient-xray
+
 // const MNFVUP1 = "https://firebasestorage.googleapis.com/v0/b/sbs-stag.appspot.com/o/tutorialassets%2Fhip%2Fcomparision_images_global%2FAP_Normal_Z2.png?alt=media";
 // const MNFVUP2 = "https://firebasestorage.googleapis.com/v0/b/sbs-stag.appspot.com/o/tutorialassets%2Fhip%2Fcomparision_images_global%2FAP_Moderate_Z2.png?alt=media";
 // const MNFVUP3 = "https://firebasestorage.googleapis.com/v0/b/sbs-stag.appspot.com/o/tutorialassets%2Fhip%2Fcomparision_images_global%2FAP_NES_Z2.png?alt=media";

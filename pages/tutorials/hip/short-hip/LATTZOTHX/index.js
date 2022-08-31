@@ -5,6 +5,13 @@ import CheckIcon from "@material-ui/icons/Check";
 
 import MyContext from "../../../../helper/themeContext";
 
+import Img1 from "../../../../assets/shortHipEdu/LATTZOTHX/1.png";
+import Img2 from "../../../../assets/shortHipEdu/LATTZOTHX/2.png";
+import Img3 from "../../../../assets/shortHipEdu/LATTZOTHX/3.png";
+import Img4 from "../../../../assets/shortHipEdu/LATTZOTHX/4.png";
+import Bulb from "../../../../assets/shortHipEdu/bulbimage.png";
+
+
 
 const NextPage = "/tutorials/hip/short-hip/EHAWX";
 const BackPage = "/tutorials/hip/short-hip/LATTZOTH";
@@ -15,11 +22,6 @@ const BackPage = "/tutorials/hip/short-hip/LATTZOTH";
 // const Img3 = "https://firebasestorage.googleapis.com/v0/b/sbs-stag.appspot.com/o/tutorialassets%2Fhip%2FShortHipEdu%2FLATTZOTHX%2F3.png?alt=media";
 // const Img4 = "https://firebasestorage.googleapis.com/v0/b/sbs-stag.appspot.com/o/tutorialassets%2Fhip%2FShortHipEdu%2FLATTZOTHX%2F4.png?alt=media";
 // const Bulb = "https://firebasestorage.googleapis.com/v0/b/sbs-stag.appspot.com/o/tutorialassets%2Fhip%2FAboutHip%2Fbulbimage.png?alt=media"
-import Img1 from "../../../../assets/shortHipEdu/LATTZOTHX/1.png";
-import Img2 from "../../../../assets/shortHipEdu/LATTZOTHX/2.png";
-import Img3 from "../../../../assets/shortHipEdu/LATTZOTHX/3.png";
-import Img4 from "../../../../assets/shortHipEdu/LATTZOTHX/4.png";
-import Bulb from "../../../../assets/shortHipEdu/bulbimage.png";
 
 class LATTZOTHX extends Component {
   constructor(props) {

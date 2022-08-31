@@ -7,6 +7,13 @@ import MyContext from "../../../../helper/themeContext";
 // import "./JSNMC.css";
 
 
+import Img1 from "../../../../assets/shortHipEdu/JSNAPPZ1/1.png"
+import Img2 from "../../../../assets/shortHipEdu/JSNAPPZ1/2.png";
+import Img3 from "../../../../assets/shortHipEdu/JSNAPPZ1/3.png";
+import Img4 from "../../../../assets/shortHipEdu/JSNAPPZ1/4.png";
+import Img5 from "../../../../assets/shortHipEdu/JSNAPPZ1/5.png";
+
+
 const NextPage = "/tutorials/hip/short-hip/JSNAPPZ2";
 const BackPage = "/tutorials/hip/short-hip/EHAWX";
 
@@ -23,11 +30,6 @@ const BackPage = "/tutorials/hip/short-hip/EHAWX";
 
 // const Bulb = "https://firebasestorage.googleapis.com/v0/b/sbs-stag.appspot.com/o/tutorialassets%2Fhip%2FAboutHip%2Fbulbimage.png?alt=media"
 
-import Img1 from "../../../../assets/shortHipEdu/JSNAPPZ1/1.png"
-import Img2 from "../../../../assets/shortHipEdu/JSNAPPZ1/2.png";
-import Img3 from "../../../../assets/shortHipEdu/JSNAPPZ1/3.png";
-import Img4 from "../../../../assets/shortHipEdu/JSNAPPZ1/4.png";
-import Img5 from "../../../../assets/shortHipEdu/JSNAPPZ1/5.png";
 
 class JSNAPPZ1 extends Component {
   constructor(props) {
