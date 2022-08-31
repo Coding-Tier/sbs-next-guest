@@ -58,7 +58,6 @@ const baseUrl = baseUrlA;
 
         else
         {
-
             console.log(newState)
             setState({
                 ...sessionVariables,

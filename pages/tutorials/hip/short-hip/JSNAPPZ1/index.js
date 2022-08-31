@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Button from "@material-ui/core/Button";
-// import Bulb from "../../../assets/bulbimage.png";
+import Bulb from "../../../../assets/bulbimage.png";
 import CheckIcon from "@material-ui/icons/Check";
 
 import MyContext from "../../../../helper/themeContext";
@@ -15,13 +15,19 @@ const BackPage = "/tutorials/hip/short-hip/EHAWX";
 // import Img3 from "../../../../assets/HipEducationAssets/3_NES_AP_Z1.png";
 // import Img1 from "../../../../assets/HipEducationAssets/4_AP_ES_Z1.png";
 
-const Img1 = "https://firebasestorage.googleapis.com/v0/b/sbs-stag.appspot.com/o/tutorialassets%2Fhip%2FShortHipEdu%2FJSNAPPZ1%2F1.png?alt=media";
-const Img2 = "https://firebasestorage.googleapis.com/v0/b/sbs-stag.appspot.com/o/tutorialassets%2Fhip%2FShortHipEdu%2FJSNAPPZ1%2F2.png?alt=media";
-const Img3 = "https://firebasestorage.googleapis.com/v0/b/sbs-stag.appspot.com/o/tutorialassets%2Fhip%2FShortHipEdu%2FJSNAPPZ1%2F3.png?alt=media";
-const Img4 = "https://firebasestorage.googleapis.com/v0/b/sbs-stag.appspot.com/o/tutorialassets%2Fhip%2FShortHipEdu%2FJSNAPPZ1%2F4.png?alt=media";
-const Img5 = "https://firebasestorage.googleapis.com/v0/b/sbs-stag.appspot.com/o/tutorialassets%2Fhip%2FShortHipEdu%2FJSNAPPZ1%2F5.png?alt=media";
+// const Img1 = "https://firebasestorage.googleapis.com/v0/b/sbs-stag.appspot.com/o/tutorialassets%2Fhip%2FShortHipEdu%2FJSNAPPZ1%2F1.png?alt=media";
+// const Img2 = "https://firebasestorage.googleapis.com/v0/b/sbs-stag.appspot.com/o/tutorialassets%2Fhip%2FShortHipEdu%2FJSNAPPZ1%2F2.png?alt=media";
+// const Img3 = "https://firebasestorage.googleapis.com/v0/b/sbs-stag.appspot.com/o/tutorialassets%2Fhip%2FShortHipEdu%2FJSNAPPZ1%2F3.png?alt=media";
+// const Img4 = "https://firebasestorage.googleapis.com/v0/b/sbs-stag.appspot.com/o/tutorialassets%2Fhip%2FShortHipEdu%2FJSNAPPZ1%2F4.png?alt=media";
+// const Img5 = "https://firebasestorage.googleapis.com/v0/b/sbs-stag.appspot.com/o/tutorialassets%2Fhip%2FShortHipEdu%2FJSNAPPZ1%2F5.png?alt=media";
 
-const Bulb = "https://firebasestorage.googleapis.com/v0/b/sbs-stag.appspot.com/o/tutorialassets%2Fhip%2FAboutHip%2Fbulbimage.png?alt=media"
+// const Bulb = "https://firebasestorage.googleapis.com/v0/b/sbs-stag.appspot.com/o/tutorialassets%2Fhip%2FAboutHip%2Fbulbimage.png?alt=media"
+
+import Img1 from "../../../../assets/shortHipEdu/JSNAPPZ1/1.png"
+import Img2 from "../../../../assets/shortHipEdu/JSNAPPZ1/2.png";
+import Img3 from "../../../../assets/shortHipEdu/JSNAPPZ1/3.png";
+import Img4 from "../../../../assets/shortHipEdu/JSNAPPZ1/4.png";
+import Img5 from "../../../../assets/shortHipEdu/JSNAPPZ1/5.png";
 
 class JSNAPPZ1 extends Component {
   constructor(props) {

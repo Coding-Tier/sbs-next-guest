@@ -14,11 +14,17 @@ import MyContext from "../../../../helper/themeContext";
 // import "./LATMALCOTKITX.css";
 
 
-const Img1 = "https://firebasestorage.googleapis.com/v0/b/sbs-stag.appspot.com/o/tutorialassets%2Fhip%2FShortHipEdu%2FLATTZOTH%2F1.png?alt=media";
-const Img2 = "https://firebasestorage.googleapis.com/v0/b/sbs-stag.appspot.com/o/tutorialassets%2Fhip%2FShortHipEdu%2FLATTZOTH%2F2.png?alt=media";
-const Img3 = "https://firebasestorage.googleapis.com/v0/b/sbs-stag.appspot.com/o/tutorialassets%2Fhip%2FShortHipEdu%2FLATTZOTH%2F3.png?alt=media";
-const Img4 = "https://firebasestorage.googleapis.com/v0/b/sbs-stag.appspot.com/o/tutorialassets%2Fhip%2FShortHipEdu%2FLATTZOTH%2F4.png?alt=media";
-const Bulb = "https://firebasestorage.googleapis.com/v0/b/sbs-stag.appspot.com/o/tutorialassets%2Fhip%2FAboutHip%2Fbulbimage.png?alt=media"
+// const Img1 = "https://firebasestorage.googleapis.com/v0/b/sbs-stag.appspot.com/o/tutorialassets%2Fhip%2FShortHipEdu%2FLATTZOTH%2F1.png?alt=media";
+// const Img2 = "https://firebasestorage.googleapis.com/v0/b/sbs-stag.appspot.com/o/tutorialassets%2Fhip%2FShortHipEdu%2FLATTZOTH%2F2.png?alt=media";
+// const Img3 = "https://firebasestorage.googleapis.com/v0/b/sbs-stag.appspot.com/o/tutorialassets%2Fhip%2FShortHipEdu%2FLATTZOTH%2F3.png?alt=media";
+// const Img4 = "https://firebasestorage.googleapis.com/v0/b/sbs-stag.appspot.com/o/tutorialassets%2Fhip%2FShortHipEdu%2FLATTZOTH%2F4.png?alt=media";
+// const Bulb = "https://firebasestorage.googleapis.com/v0/b/sbs-stag.appspot.com/o/tutorialassets%2Fhip%2FAboutHip%2Fbulbimage.png?alt=media"
+
+import Img1 from "../../../../assets/shortHipEdu/LATTZOTH/1.png";
+import Img2 from "../../../../assets/shortHipEdu/LATTZOTH/2.png";
+import Img3 from "../../../../assets/shortHipEdu/LATTZOTH/3.png";
+import Img4 from "../../../../assets/shortHipEdu/LATTZOTH/4.png";
+import Bulb from "../../../../assets/shortHipEdu/bulbimage.png";
 
 const NextPage = "/tutorials/hip/short-hip/LATTZOTHX";
 const BackPage = "/tutorials/hip/short-hip/";
