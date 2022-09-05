@@ -16,7 +16,7 @@ import MNFVUP1 from "../../../../assets/shortHipEdu/XMZ2/1.png" ;
 import MNFVUP2 from "../../../../assets/shortHipEdu/XMZ2/2.png" ;
 import MNFVUP3 from "../../../../assets/shortHipEdu/XMZ2/3.png" ;
 import MNFVUP4 from "../../../../assets/shortHipEdu/XMZ2/4.png" ;
-import MNFVUP from "../../../../assets/shortHipEdu/XMZ1/5.png"  //patient-xray
+import MNFVUP from "../../../../assets/shortHipEdu/XMZ2/5.png"  //patient-xray
 
 // import "./matching.css";
 
