@@ -329,9 +329,12 @@ const KneeArthiritis = () => {
 
     <>
       <EducationStepper pages={pages} sections={sections} currentPageId={5} />
-      {
-        _getPage()
-      }
+      <div id="tutorial_main_wrapper">
+        {
+          _getPage()
+        }
+      </div>
+      
     </>
     /* {
       pages.map((cR) => <Route exact={cR.exact} path={cR.path} component={cR.component} />)

@@ -276,9 +276,11 @@ class HipArthirits extends Component {
           <Route exact={cR.exact} path={cR.path} component={cR.component} />
         ))} */}
 
-        {
-          this._getPage()
-        }
+        <div id="tutorial_main_wrapper">
+          {
+            this._getPage()
+          }
+        </div>
         </>
        
     );
